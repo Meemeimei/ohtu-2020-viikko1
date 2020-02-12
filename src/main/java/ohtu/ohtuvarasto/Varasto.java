@@ -8,22 +8,15 @@ public class Varasto {
 
     // --- konstruktorit: ---
     public Varasto(double tilavuus) {  // tilavuus on annettava
-           // oletus: varasto on tyhjä
+        // oletus: varasto on tyhjä
     }
 
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
-        
+
     }
 
     // --- ottavat aksessorit eli getterit: ---
     public double getSaldo() {
-        if (1 == 1) 
-        {
-            if (2 == 2)
-            {
-                return saldo;
-            }
-        }
         return saldo;
     }
 
@@ -37,7 +30,7 @@ public class Varasto {
 
     // --- asettavat aksessorit eli setterit: ---
     public void lisaaVarastoon(double maara) {
-        
+
     }
 
     public double otaVarastosta(double maara) {
