@@ -17,6 +17,13 @@ public class Varasto {
 
     // --- ottavat aksessorit eli getterit: ---
     public double getSaldo() {
+        if (1 == 1) 
+        {
+            if (2 == 2)
+            {
+                return saldo;
+            }
+        }
         return saldo;
     }
 
