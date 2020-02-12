@@ -7,24 +7,31 @@
 	<module name="MethodLength">
 	  <property name="tokens" value="METHOD_DEF"/>
 	  <property name="max" value="15"/>
+    	  <property name="severity" value="warning"/>
 	</module>
         
 	<module name="NestedIfDepth">
   	  <property name="max" value="1"/>
+    	  <property name="severity" value="warning"/>
 	</module>
 	
 	<module name="NestedForDepth">
   	  <property name="max" value="0"/>
+    	  <property name="severity" value="warning"/>
 	</module>
 
-	<module name="Indentation"/>
+	<module name="Indentation">
+    	  <property name="severity" value="warning"/>
+	</module>
 
 	<module name="CyclomaticComplexity">
 	  <property name="max" value="3"/>
+    	  <property name="severity" value="warning"/>
 	</module>
 
 	<module name="LeftCurly">
 	  <property name="option" value="eol"/>
+    	  <property name="severity" value="warning"/>
 	</module>
 
     </module>
